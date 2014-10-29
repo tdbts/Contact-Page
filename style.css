@@ -40,3 +40,20 @@ html, body {
 	background: url('NY_basketball_ct_upsidedown_blur.jpg') no-repeat center center scroll;
 	background-size: cover;
 }
+
+.contact_content {
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	margin-right: -25%;
+	transfrom: translate(-25%, -10%);
+	display: none;
+}
+
+.contact_icon {
+	margin-bottom: 35px;
+	color: #38312a;
+}
+
+.circle {
+}

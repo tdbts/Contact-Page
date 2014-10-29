@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
-	$('.bar-icon').tooltip();
+	$('.needs_tooltip').tooltip();
+
+	$('.contact_content').delay(500).fadeIn(1500);
 
 });
