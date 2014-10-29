@@ -1,3 +1,8 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
 /* NAVBAR CSS */
 .navbar {
 	margin-bottom: 0px;
@@ -19,3 +24,15 @@
 	padding-right: 15px;
 }
 /* END OF NAVBAR CSS */
+
+.background {
+	display: table;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#wallpaper {
+	background: url('new-york-street.jpg') no-repeat center center scroll;
+	background-size: cover;
+}

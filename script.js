@@ -1,5 +1,5 @@
 $(document).ready(function() {
 
-	/* jQuery code goes here... */
+	$('.bar-icon').tooltip();
 
 });
