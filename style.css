@@ -10,6 +10,10 @@ html, body {
 	border: 0px;
 }
 
+#my_navbar {
+	margin-bottom: 0px;
+}
+
 .navbar-nav {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
@@ -33,6 +37,6 @@ html, body {
 }
 
 #wallpaper {
-	background: url('new-york-street.jpg') no-repeat center center scroll;
+	background: url('NY_basketball_ct_upsidedown_blur.jpg') no-repeat center center scroll;
 	background-size: cover;
 }
