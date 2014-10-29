@@ -1,0 +1,21 @@
+/* NAVBAR CSS */
+.navbar {
+	margin-bottom: 0px;
+	background-color: #333;
+	border: 0px;
+}
+
+.navbar-nav {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.nav > li > a:not(.text_link) {
+	padding: 10px 15px;
+}
+
+#email_input {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* END OF NAVBAR CSS */
