@@ -53,7 +53,41 @@ html, body {
 .contact_icon {
 	margin-bottom: 35px;
 	color: #38312a;
+/*	-webkit-transition: width 2s, height 2s, padding-top 2s, margin-left 2s, color 2s, transform 2s;
+	-moz-transition: width 2s, height 2s, padding-top 2s, margin-left 2s, color 2s, transform 2s;
+	-0-transition: width 2s, height 2s, padding-top 2s, margin-left 2s, color 2s, transform 2s;
+	transition: width 2s, height 2s, padding-top 2s, margin-left 2s, color 2s, transform 2s;*/
+	-moz-transition: color2s, transform 2s;
+	transition: color2s, transform 2s;
 }
+
+.contact_icon:hover {
+/*	width: 168px;
+	height: 168px;
+	padding-top: 42px;
+	margin-left: -42px;
+	color: #CDCAD0;
+	transform: rotate(360deg);*/
+	color: #CDCAD0;
+	transform: rotateY(360deg);
+}
+
+/*.info_div {
+	width: 0px;
+	height: 84px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 10%);*/
+/*	transition: width 1s, margin-left 1s;*/
+}
+
+/*.info_div:hover {
+	width: 500px;
+	margin-left: 100px;
+}*/
 
 .circle {
 }
