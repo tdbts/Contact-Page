@@ -41,12 +41,22 @@ html, body {
 	background-size: cover;
 }
 
-.contact_content {
+/*STYLING FOR NON-COLUMN ORIENTED ICONS*/
+/*.contact_content {
 	position: absolute;
 	top: 10%;
 	left: 25%;
 	margin-right: -25%;
 	transfrom: translate(-25%, -10%);
+	display: none;
+	float: left;
+}*/
+/*STYLING FOR NON-COLUMN ORIENTED ICONS*/
+
+.contact_icon_container {
+	position: absolute;
+	top: 10%;
+	left: 20%;
 	display: none;
 }
 

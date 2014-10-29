@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$('.needs_tooltip').tooltip();
 
-	$('.contact_content').delay(500).fadeIn(1500);
+	// $('.contact_content').delay(500).fadeIn(1500);
 
 	// $('.contact_icon').click(function() {
 		
@@ -13,5 +13,7 @@ $(document).ready(function() {
 		
 	// 	$('.info_div').animate({width: '500px', margin-left: '100px'}, 'slow');
 	// });
+
+	$('.contact_icon_container').delay(500).fadeIn(1500);
 
 });
