@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bs3",
+				"bs3-col:2	bs3-col-2"
+			],
+			[
 				"too",
 				"activateTooltip"
 			],
@@ -295,7 +299,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 4831,
+				"buffer_size": 8337,
 				"line_ending": "Windows"
 			}
 		},
@@ -303,7 +307,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 63,
+				"buffer_size": 404,
 				"line_ending": "Windows"
 			}
 		},
@@ -311,7 +315,7 @@
 			"file": "send_form_email.php",
 			"settings":
 			{
-				"buffer_size": 2338,
+				"buffer_size": 2327,
 				"line_ending": "Windows"
 			}
 		},
@@ -319,7 +323,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 289,
+				"buffer_size": 1912,
 				"line_ending": "Windows"
 			}
 		}
@@ -327,9 +331,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 265.0,
+		"height": 357.0,
 		"selected_items":
 		[
+			[
+				"colp",
+				"Color Picker"
+			],
 			[
 				"paci",
 				"Package Control: Install Package"
@@ -467,7 +475,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -629,6 +637,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-xs-2 col-sm-2",
+			"1",
+			"});",
+			"active",
+			"15",
+			"circle\"",
+			"fa-stack-2x",
+			"<span",
+			"id=\"",
+			"lg",
+			"3x",
+			"2x",
+			"3x",
+			"circle_",
+			"circle",
+			"1x",
+			"2x",
+			"tooptip\"",
+			"tooltip",
+			"bar-icon",
 			"tag",
 			"caret",
 			"activatesearchf",
@@ -736,27 +764,7 @@
 			"font",
 			"size",
 			"top",
-			"width",
-			"height",
-			"width",
-			"size",
-			"fontsize",
-			"descriptor",
-			"xScale",
-			"opa",
-			"!=",
-			"==",
-			"!=",
-			"==",
-			"opa",
-			"addTweetTags",
-			"arrayOfTweetObjects",
-			"callback",
-			"addTweetTags",
-			"window.clouder",
-			"addTweetTags",
-			"init",
-			"createObjectForCloud"
+			"width"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -786,15 +794,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 4831,
+						"buffer_size": 8337,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								191,
-								191
+								6594,
+								6594
 							]
 						],
 						"settings":
@@ -847,34 +855,29 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 602.0,
+						"translation.y": 2159.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
 					"file": "script.js",
 					"settings":
 					{
-						"buffer_size": 63,
+						"buffer_size": 404,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								58
+								399,
+								399
 							]
 						],
 						"settings":
@@ -934,21 +937,27 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 2,
 					"file": "send_form_email.php",
 					"settings":
 					{
-						"buffer_size": 2338,
+						"buffer_size": 2327,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2327,
+								2327
 							]
 						],
 						"settings":
@@ -1004,8 +1013,8 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 14.0,
+						"translation.y": 617.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1015,15 +1024,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 289,
+						"buffer_size": 1912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								289,
-								289
+								893,
+								893
 							]
 						],
 						"settings":
@@ -1076,10 +1085,11 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 519.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1115,7 +1125,7 @@
 		"cols":
 		[
 			0.0,
-			0.546368657154,
+			0.553026446768,
 			1.0
 		],
 		"rows":
@@ -1147,9 +1157,9 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 299.0,
+	"side_bar_width": 98.0,
 	"status_bar_visible": true
 }

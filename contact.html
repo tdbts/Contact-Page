@@ -10,7 +10,7 @@
 </head>
 
 <body>
-		<nav class="navbar-inverse" id="my_navbar">
+	<nav class="navbar-inverse" id="my_navbar">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
@@ -32,7 +32,7 @@
 					</li>
 					<li><a href="#" class="dropdown-toggle text_link" data-toggle="dropdown">Portfolio<span class="caret bootstrapSpan"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="Tweet_Cloud.html">Tweet Cloud</a></li>
+							<li><a href="../tag_cloud/Tweet_Cloud.html">Tweet Cloud</a></li>
 							<li><a href="#"><em>Project 2</em></a></li>
 							<li><a href="#"><em>Project 3</em></a></li>
 						</ul>
@@ -93,80 +93,92 @@
 		</div>
 	</nav>
 
-<!-- 	<header class="background" id="wallpaper">
-		<div class="contact_content">
-			<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_1" data-toggle="tooltip" data-placement="left" title="Email">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-			</span><br/></a> 
-			<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_2" data-toggle="tooltip" data-placement="left" title="GitHub">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-			</span><br/></a>
-			<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_3" data-toggle="tooltip" data-placement="left" title="Linked.in">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
-			</span><br/></a>
-			<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_4" data-toggle="tooltip" data-placement="left" title="Twitter">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-			</span><br/></a>
-			<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_5" data-toggle="tooltip" data-placement="left" title="Facebook">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-facebook-square fa-stack-1x fa-inverse"></i>
-			</span><br/></a>
-		</div>
-	</header> -->
+	<div class="background" id="wallpaper">
+		<ul class="ch-grid">
+			<li>
+				<div class="ch-item">
+					<div class="ch-info">
+						<div class="ch-info-front" id="ch-img-1"></div>
+						<div class="ch-info-back">
+							<a href="#emailModal" id="openEmailModal" data-toggle="modal" data-target="#myModal"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_1" data-toggle="tooltip" data-placement="left" title="Email">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+							</span><br/></a>
+							<h3>Email</h3>
+							<p>VinnySanchez87@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item">
+					<div class="ch-info">
+						<div class="ch-info-front" id="ch-img-2"></div>
+						<div class="ch-info-back">
+							<a href="#" id="contactLink-1"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_2" data-toggle="tooltip" data-placement="left" title="GitHub">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+							</span><br/></a>
+							<h3>Github</h3>
+							<p>tdbts</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item">
+					<div class="ch-info">
+						<div class="ch-info-front" id="ch-img-3"></div>
+						<div class="ch-info-back">
+							<a href="#" id="contactLink-2"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_3" data-toggle="tooltip" data-placement="left" title="Linked.in">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
+							</span><br/></a>
+							<h3>Linked.in</h3>
+							<p>Vincent R. Sanchez</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item">
+					<div class="ch-info">
+						<div class="ch-info-front" id="ch-img-4"></div>
+						<div class="ch-info-back">
+							<a href="#" id="contactLink-3"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_4" data-toggle="tooltip" data-placement="left" title="Twitter">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+							</span><br/></a>
+							<h3>Twitter</h3>
+							<p>VRSanchez8717</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item">
+					<div class="ch-info">
+						<div class="ch-info-front" id="ch-img-5"></div>
+						<div class="ch-info-back">
+							<a href="#" id="contactLink-4"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_5" data-toggle="tooltip" data-placement="left" title="Facebook">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook-square fa-stack-1x fa-inverse"></i>
+							</span><br/></a>
+							<h3>Facebook</h3>
+							<p>VinnyFromTheQ</p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		
+		
+		<h1 id="quote">
+			<span class="fa fa-quote-left bootstrapSpan quoteSpan"></span> There are no great thoughts, <br/>only great actions. <span class="fa fa-quote-right bootstrapSpan quoteSpan"></span>
+		</h1>
 
-	<header class="background" id="wallpaper">
-		<div class="container contact_icon_container">
-			<div class="col-md-2">
-				<div class="contact_content">
-					<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_1" data-toggle="tooltip" data-placement="left" title="Email">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-					</span><br/></a>
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="contact_content">
-					<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_2" data-toggle="tooltip" data-placement="left" title="GitHub">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-					</span><br/></a>					
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="contact_content">
-					<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_3" data-toggle="tooltip" data-placement="left" title="Linked.in">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
-					</span><br/></a>					
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="contact_content">
-					<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_4" data-toggle="tooltip" data-placement="left" title="Twitter">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-					</span><br/></a>					
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="contact_content">
-					<a href="#"><span class="fa-stack fa-3x needs_tooltip contact_icon" id="stack_5" data-toggle="tooltip" data-placement="left" title="Facebook">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-facebook-square fa-stack-1x fa-inverse"></i>
-					</span><br/></a>		
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="contact_content">
-					
-				</div>
-			</div>
-		</div>
-	</header>	
+	</div>
+
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

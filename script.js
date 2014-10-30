@@ -2,18 +2,33 @@ $(document).ready(function() {
 
 	$('.needs_tooltip').tooltip();
 
-	// $('.contact_content').delay(500).fadeIn(1500);
-
-	// $('.contact_icon').click(function() {
+	$('.ch-item').delay(250).fadeIn(1500, function() {
 		
-	// 	$(this).toggleClass(':active');
-	// });
+		$('#quote').fadeIn(1000);
+	});
 
-	// $('.contact_icon').on('click', function() {
+	$('#openEmailModal').on('click', function() {
 		
-	// 	$('.info_div').animate({width: '500px', margin-left: '100px'}, 'slow');
-	// });
+		$('#emailModal').modal();
+	});
 
-	$('.contact_icon_container').delay(500).fadeIn(1500);
+	function attachLinks(selectorsAndURLs) {
+		selectorsAndURLs.forEach(function(obj) {
+			
+			$(obj.selector).on('click', function() {
+				
+				window.open(obj.url);
+			});
+		});
+	}
+
+	var linkData = [
+		{selector: "#contactLink-1", url: "https://github.com/tdbts"}, 
+		{selector: "#contactLink-2", url: "https://www.linkedin.com/pub/vincent-r-sanchez/50/7b0/895"}, 
+		{selector: "#contactLink-3", url: "https://twitter.com/vrsanchez8717"}, 
+		{selector: "#contactLink-4", url: "https://www.facebook.com/VinnyFromTheQ"} 
+		];
+
+	attachLinks(linkData);
 
 });
