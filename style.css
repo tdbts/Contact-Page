@@ -3,9 +3,9 @@ html, body {
 	width: 100%;
 }
 
-body {
+/*body {
 	color: #E1E1E1;
-}
+}*/
 
 /* NAVBAR CSS */
 .navbar {
@@ -30,6 +30,16 @@ body {
 #email_input {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.popover {
+	background-color: #E74C3C;
+	color: #ECF0F1;
+	width: 120px;
+}
+
+.popover.right .arrow:after {
+	border-right-color: #E74C3C;
 }
 /* END OF NAVBAR CSS */
 
@@ -259,13 +269,16 @@ body {
 h1 {
 	display: none;
 	background-color: transparent;
-	font-size: 8em;
-	color: white;
+	font-size: 2em;
+	color: #AAA6AE;
+	white-space: nowrap;
+	line-height: 1.2em;
 	padding-top: 75px;
 	position: absolute;
 	left: 5%;
-
 }
+
+
 
 
 
