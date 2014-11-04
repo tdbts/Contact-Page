@@ -299,7 +299,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 8337,
+				"buffer_size": 8000,
 				"line_ending": "Windows"
 			}
 		},
@@ -307,7 +307,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 404,
+				"buffer_size": 790,
 				"line_ending": "Windows"
 			}
 		},
@@ -323,7 +323,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 1912,
+				"buffer_size": 5005,
 				"line_ending": "Windows"
 			}
 		}
@@ -337,6 +337,10 @@
 			[
 				"colp",
 				"Color Picker"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
 			],
 			[
 				"paci",
@@ -353,10 +357,6 @@
 			[
 				"css",
 				"Set Syntax: CSS"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
 			],
 			[
 				"jvs",
@@ -637,6 +637,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<pre>",
+			"\".",
+			"class=\"contactLink",
+			"class=\"c",
+			"\"c",
+			"=\"#\"",
+			"id",
+			"span",
+			"icon",
+			"-2\"></",
+			"li",
+			"transform",
+			".c",
+			".",
+			"back",
 			"col-xs-2 col-sm-2",
 			"1",
 			"});",
@@ -749,22 +764,7 @@
 			"twitterCloudTags[i]",
 			"callback",
 			"sm",
-			"success",
-			"button",
-			"containerTop",
-			"offsetTop",
-			"body",
-			"colorbgr",
-			"parsecolor",
-			"color",
-			"3",
-			"rotat",
-			"speed",
-			"nonsense",
-			"font",
-			"size",
-			"top",
-			"width"
+			"success"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -786,7 +786,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -794,15 +794,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 8337,
+						"buffer_size": 8000,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6594,
-								6594
+								1300,
+								1300
 							]
 						],
 						"settings":
@@ -859,7 +859,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2159.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -869,15 +869,15 @@
 					"file": "script.js",
 					"settings":
 					{
-						"buffer_size": 404,
+						"buffer_size": 790,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								399,
-								399
+								143,
+								143
 							]
 						],
 						"settings":
@@ -930,7 +930,8 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -941,7 +942,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1024,15 +1025,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 1912,
+						"buffer_size": 5005,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								893,
-								893
+								4617,
+								4617
 							]
 						],
 						"settings":
@@ -1089,7 +1090,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 519.0,
+						"translation.y": 3092.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1125,7 +1126,7 @@
 		"cols":
 		[
 			0.0,
-			0.553026446768,
+			0.518405940776,
 			1.0
 		],
 		"rows":
