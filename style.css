@@ -1,33 +1,27 @@
-html, body {
+html, body, .background, .ch-item, .ch-info, .ch-info > div {
 	height: 100%;
 	width: 100%;
 }
 
-/*body {
-	color: #E1E1E1;
-}*/
-
 /* NAVBAR CSS */
-.navbar {
+.navbar, #my_navbar, .navbar-nav, .contact_icon {
 	margin-bottom: 0px;
+}
+
+.navbar {
 	background-color: #333;
 	border: 0px;
 }
 
-#my_navbar {
-	margin-bottom: 0px;
-}
-
 .navbar-nav {
-	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
 
 .nav > li > a:not(.text_link) {
-	padding: 10px 15px;
+	padding: 10px;
 }
 
-#email_input {
+.nav > li > a:not(.text_link), #email_input {
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -46,8 +40,6 @@ html, body {
 .background {
 	display: table;
 	position: relative;
-	height: 100%;
-	width: 100%;
 }
 
 #wallpaper {
@@ -55,67 +47,16 @@ html, body {
 	background-size: cover;
 }
 
-/*STYLING FOR NON-COLUMN ORIENTED ICONS*/
-/*.contact_content {
-	position: absolute;
-	top: 10%;
-	left: 25%;
-	margin-right: -25%;
-	transfrom: translate(-25%, -10%);
-	display: none;
-	float: left;
-}*/
-/*STYLING FOR NON-COLUMN ORIENTED ICONS*/
-
-.contact_icon_container {
-	/*position: absolute;*/
-	/*top: 10%;*/
-	/*left: 20%;*/
-	/*display: none;*/
-}
-
 .contact_icon {
-	margin-bottom: 0px;
 	color: #38312a;
-/*	-webkit-transition: width 2s, height 2s, padding-top 2s, margin-left 2s, color 2s, transform 2s;
-	-moz-transition: width 2s, height 2s, padding-top 2s, margin-left 2s, color 2s, transform 2s;
-	-0-transition: width 2s, height 2s, padding-top 2s, margin-left 2s, color 2s, transform 2s;
-	transition: width 2s, height 2s, padding-top 2s, margin-left 2s, color 2s, transform 2s;*/
 	-moz-transition: color2s, transform 2s;
 	transition: color2s, transform 2s;
 }
 
 .contact_icon:hover {
-/*	width: 168px;
-	height: 168px;
-	padding-top: 42px;
-	margin-left: -42px;
-	color: #CDCAD0;
-	transform: rotate(360deg);*/
 	color: #CDCAD0;
 	transform: rotateY(360deg);
 }
-
-/*.info_div {
-	width: 0px;
-	height: 84px;
-	background-color: #FFFFFF;
-	position: absolute;
-	top: 10%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, 10%);*/
-/*	transition: width 1s, margin-left 1s;*/
-/*}*/
-
-/*.info_div:hover {
-	width: 500px;
-	margin-left: 100px;
-}*/
-
-.circle {
-}
-
 
 /* CSS INFLUENCED BY MARY LOU (TYMPANUS.NET) */
 .ch-grid {
@@ -143,10 +84,11 @@ html, body {
 	margin: 20px;
 }
 
-.ch-item {
-	width: 100%;
-	height: 100%;
+.ch-item, .ch-info > div {
 	border-radius: 50%;
+}
+
+.ch-item {
 	position: relative;
 	cursor: default;
 	display: none;
@@ -155,10 +97,11 @@ html, body {
 	perspective: 900px;
 }
 
-.ch-info {
+.ch-info, .ch-info > div, h1 {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+}
+
+.ch-info {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -166,10 +109,6 @@ html, body {
 
 .ch-info > div {
 	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
 	background-position: center center;
 	-webkit-transition: all 0.4 linear;
 	-moz-transition: all 0.4 linear;
@@ -193,36 +132,22 @@ html, body {
 	-o-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
 	transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
 	background: #000;
-	opacity: 0;
 }
 
-#ch-img-1 {
-	background-image: url('NY_street_through_fence.jpg')
+.contact_circle {
+	background-image: url('NY_street_through_fence.jpg');	
 }
 
-#ch-img-2 {
-	background-image: url('NY_street_through_fence.jpg')
-}
-
-#ch-img-3 {
-	background-image: url('NY_street_through_fence.jpg')
-}
-
-#ch-img-4 {
-	background-image: url('NY_street_through_fence.jpg')
-}
-
-#ch-img-5 {
-	background-image: url('NY_street_through_fence.jpg')
+.ch-info h3, .ch-info p {
+	color: #fff;
+	padding: 10px 0 0 0;
 }
 
 .ch-info h3 {
-	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 24px;
 	margin: 0px;
-	padding: 10px 0 0 0;
 	height: 50px;
 	font-family: 'Open Sans', Arial, sans-serif;
 	text-shadow: 0 0 1px #fff,
@@ -230,8 +155,6 @@ html, body {
 }
 
 .ch-info p {
-	color: #fff;
-	padding: 10px 0 0 0;
 	font-style: italic;
 	margin: 0 30px;
 	font-size: 12px;
@@ -254,7 +177,7 @@ html, body {
 	color: rgba(255, 242, 34, 0.8);
 }
 
-.ch-item:hover .ch-info-front {
+.ch-item:hover .ch-info-front, .ch-info .ch-info-back {
 	opacity: 0;
 }
 
@@ -266,6 +189,7 @@ html, body {
 	opacity: 1;
 }
 
+/* Quote */
 h1 {
 	display: none;
 	background-color: transparent;
@@ -274,9 +198,12 @@ h1 {
 	white-space: nowrap;
 	line-height: 1.2em;
 	padding-top: 75px;
-	position: absolute;
 	left: 5%;
 }
+
+
+
+
 
 
 
