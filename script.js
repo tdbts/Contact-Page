@@ -87,4 +87,13 @@ $(document).ready(function() {
 	}
 	adjustForSmallerScreens();
 
+	function adjustBackground() {
+
+		$(document).scroll(function() {
+			
+			$('#wallpaper').css({height: (screen.availHeight + $(document).scrollTop()).toString() + 'px',
+				maxHeight: '1750px'});
+		});
+	}
+	adjustBackground();
 });

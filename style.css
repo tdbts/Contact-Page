@@ -1,4 +1,4 @@
-html, body, .background, .ch-item, .ch-info, .ch-info > div {
+html, body, .background, #content_container, .ch-item, .ch-info, .ch-info > div {
 	height: 100%;
 	width: 100%;
 }
@@ -40,6 +40,11 @@ html, body, .background, .ch-item, .ch-info, .ch-info > div {
 .background {
 	display: table;
 	position: relative;
+}
+
+#content_container {
+	left: 0;
+	top: 0;
 }
 
 #wallpaper {
@@ -194,7 +199,7 @@ h1 {
 	display: none;
 	background-color: transparent;
 	font-size: 2em;
-	color: #AAA6AE;
+	color: #534F57;
 	white-space: nowrap;
 	line-height: 1.2em;
 	padding-top: 75px;
