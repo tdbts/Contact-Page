@@ -76,4 +76,15 @@ $(document).ready(function() {
 
 	$('#send_email_btn').popover({content: 'Thanks for reaching out!'}, 'click');
 
+	function adjustForSmallerScreens() {
+
+		if (window.screen.availWidth >= 950 && window.screen.availWidth <= 1500) {
+
+			$('.circle_container').css({height: '180px', width: '180px'});
+			$('.ch-info h3').css({fontSize: '1.5em', paddingTop: '7px', height: '40px'});
+			$('.ch-info-back p').css({fontSize: '0.65em'});
+		}
+	}
+	adjustForSmallerScreens();
+
 });
