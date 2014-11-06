@@ -296,10 +296,10 @@
 	"buffers":
 	[
 		{
-			"file": "contact.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8000,
+				"buffer_size": 8268,
 				"line_ending": "Windows"
 			}
 		},
@@ -307,7 +307,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 790,
+				"buffer_size": 2212,
 				"line_ending": "Windows"
 			}
 		},
@@ -315,7 +315,7 @@
 			"file": "send_form_email.php",
 			"settings":
 			{
-				"buffer_size": 2327,
+				"buffer_size": 2258,
 				"line_ending": "Windows"
 			}
 		},
@@ -323,7 +323,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 5005,
+				"buffer_size": 3768,
 				"line_ending": "Windows"
 			}
 		}
@@ -336,6 +336,14 @@
 		[
 			[
 				"colp",
+				"Color Picker"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"colop",
 				"Color Picker"
 			],
 			[
@@ -637,6 +645,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h3",
+			".ch-info-back",
+			"<li",
+			"circle",
+			"margin: 0",
+			"display: none",
+			".ch-item",
+			"display: none",
+			"position: inline-block",
+			"position: relative",
+			"/*padding: 10px 0 0 0;*/",
+			"/*color: #fff;*/",
+			"padding: 10",
+			"/*position: absolute;*/",
+			"position: absolute;",
+			"position: absolute",
+			"/*margin-bottom: 0px;*/",
+			"margin-bottom: 0px;",
+			"/*	height: 100%;\n	width: 100%;*/",
+			"ch-item",
+			"id=\"ch-img-",
+			"id=\"",
+			")",
+			"padding",
+			"url",
+			"h1",
+			"background-color",
+			"div",
 			"<pre>",
 			"\".",
 			"class=\"contactLink",
@@ -736,35 +772,7 @@
 			"console",
 			"twittercloudtags",
 			"killCloud",
-			"twitterCloudTags",
-			"closest",
-			"callback",
-			"init",
-			"clearall",
-			"scrollupto",
-			"pSpan",
-			"hide",
-			"show",
-			"deprecated",
-			"click",
-			"hide",
-			"clearAl",
-			"dOptions",
-			"CloudOptions",
-			"Options",
-			"drawcloud",
-			"executeTwitterFeedSearch",
-			"executeTwitterSearch",
-			"getTwitterHandle",
-			"createTweetCloud",
-			"containerTop",
-			"func",
-			"class",
-			"createTweetCloud",
-			"twitterCloudTags[i]",
-			"callback",
-			"sm",
-			"success"
+			"twitterCloudTags"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -786,23 +794,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "contact.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8000,
+						"buffer_size": 8268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1300,
-								1300
+								429,
+								429
 							]
 						],
 						"settings":
@@ -863,21 +871,27 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
 				{
 					"buffer": 1,
 					"file": "script.js",
 					"settings":
 					{
-						"buffer_size": 790,
+						"buffer_size": 2212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								143,
-								143
+								2040,
+								2040
 							]
 						],
 						"settings":
@@ -934,31 +948,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1032.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 2,
 					"file": "send_form_email.php",
 					"settings":
 					{
-						"buffer_size": 2327,
+						"buffer_size": 2258,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2327,
-								2327
+								56,
+								56
 							]
 						],
 						"settings":
@@ -1014,8 +1022,8 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 14.0,
-						"translation.y": 617.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1025,15 +1033,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 5005,
+						"buffer_size": 3768,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4617,
-								4617
+								3647,
+								3647
 							]
 						],
 						"settings":
@@ -1090,7 +1098,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3092.0,
+						"translation.y": 2389.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1126,7 +1134,7 @@
 		"cols":
 		[
 			0.0,
-			0.518405940776,
+			0.33,
 			1.0
 		],
 		"rows":

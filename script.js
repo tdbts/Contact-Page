@@ -17,6 +17,14 @@ $(document).ready(function() {
 		return $(selector).val();
 	}
 
+	function clearField(selectors) {
+
+		selectors.forEach(function(fieldID) {
+			
+			$(fieldID).val("");
+		});
+	}
+
 	function emailModalAJAX() {
 
 		$('#send_email_btn').on('click', function(event) {
@@ -41,6 +49,8 @@ $(document).ready(function() {
 
 			request.done(function() {
 				
+				clearField(['#first_name', '#last_name', '#email', '#comments']);
+				$('#send_email_btn').popover('hide');
 				$('#emailModal').modal('hide');
 			});
 
