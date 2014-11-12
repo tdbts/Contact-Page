@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$('.needs_tooltip').tooltip();
 
-	$('.ch-item').delay(250).fadeIn(1500, function() {
+	$('.ch-item').delay(1000).fadeIn(1500, function() {
 		
 		$('#quote').fadeIn(1000);
 	});

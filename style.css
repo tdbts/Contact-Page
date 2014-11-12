@@ -48,7 +48,7 @@ html, body, .background, #content_container, .ch-item, .ch-info, .ch-info > div 
 }
 
 #wallpaper {
-	background: url('road_almost_bw.jpg') no-repeat center center scroll;
+	background: url('road_almost_bw_OPTIMIZED.jpg') no-repeat center center scroll;
 	background-size: cover;
 }
 

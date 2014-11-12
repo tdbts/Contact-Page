@@ -307,7 +307,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 2212,
+				"buffer_size": 2436,
 				"line_ending": "Windows"
 			}
 		},
@@ -323,7 +323,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 3768,
+				"buffer_size": 3818,
 				"line_ending": "Windows"
 			}
 		}
@@ -645,6 +645,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"modal",
+			"tooltip",
 			"h3",
 			".ch-info-back",
 			"<li",
@@ -770,9 +772,7 @@
 			"created_at",
 			"url",
 			"console",
-			"twittercloudtags",
-			"killCloud",
-			"twitterCloudTags"
+			"twittercloudtags"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -809,8 +809,8 @@
 						"selection":
 						[
 							[
-								429,
-								429
+								490,
+								490
 							]
 						],
 						"settings":
@@ -867,7 +867,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 46368.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -875,7 +875,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -883,15 +883,15 @@
 					"file": "script.js",
 					"settings":
 					{
-						"buffer_size": 2212,
+						"buffer_size": 2436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2040,
-								2040
+								200,
+								200
 							]
 						],
 						"settings":
@@ -948,7 +948,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1032.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1033,15 +1033,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 3768,
+						"buffer_size": 3818,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3647,
-								3647
+								253,
+								253
 							]
 						],
 						"settings":
@@ -1098,7 +1098,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2389.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1134,7 +1134,7 @@
 		"cols":
 		[
 			0.0,
-			0.33,
+			0.05,
 			1.0
 		],
 		"rows":
