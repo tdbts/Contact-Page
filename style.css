@@ -48,7 +48,7 @@ html, body, .background, #content_container, .ch-item, .ch-info, .ch-info > div 
 }
 
 #wallpaper {
-	background: url('road.jpg') no-repeat center center scroll;
+	background: url('road_almost_bw.jpg') no-repeat center center scroll;
 	background-size: cover;
 }
 
@@ -65,7 +65,7 @@ html, body, .background, #content_container, .ch-item, .ch-info, .ch-info > div 
 
 /* CSS INFLUENCED BY MARY LOU (TYMPANUS.NET) */
 .ch-grid {
-	margin: 125px 0 0 0;
+	margin: 175px 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
@@ -195,11 +195,12 @@ html, body, .background, #content_container, .ch-item, .ch-info, .ch-info > div 
 }
 
 /* Quote */
-h1 {
+#quote {
+	margin-top: 50px;
 	display: none;
 	background-color: transparent;
 	font-size: 2em;
-	color: #534F57;
+	color: #F4F3F5;
 	white-space: nowrap;
 	line-height: 1.2em;
 	padding-top: 75px;
