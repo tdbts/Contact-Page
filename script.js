@@ -76,6 +76,8 @@ $(document).ready(function() {
 	}
 
 	var linkData = [
+		{selector: "#twitter_icon", url: "https://twitter.com/vrsanchez8717"},
+		{selector: "#github_icon", url: "https://github.com/tdbts"},
 		{selector: "#contactLink-1", url: "https://github.com/tdbts"}, 
 		{selector: "#contactLink-2", url: "https://www.linkedin.com/pub/vincent-r-sanchez/50/7b0/895"}, 
 		{selector: "#contactLink-3", url: "https://twitter.com/vrsanchez8717"}, 

@@ -299,7 +299,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8268,
+				"buffer_size": 8326,
 				"line_ending": "Windows"
 			}
 		},
@@ -307,7 +307,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 2436,
+				"buffer_size": 2437,
 				"line_ending": "Windows"
 			}
 		},
@@ -323,7 +323,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 3818,
+				"buffer_size": 3811,
 				"line_ending": "Windows"
 			}
 		}
@@ -500,6 +500,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Vincent/Documents/Hckr/OpenSource/StackOverflow/tester/script.js",
+		"/C/Users/Vincent/Documents/Hckr/OpenSource/StackOverflow/tester/style.css",
 		"/C/Users/Vincent/AppData/Roaming/Sublime Text 2/Packages/User/HTML.sublime-settings",
 		"/C/Users/Vincent/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Vincent/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -625,9 +627,7 @@
 		"/C/Users/Vincent/Documents/Hckr/Play/imgAggregator/TINKERimgAggregatorTINKER.js",
 		"/C/Users/Vincent/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/SNIPPET - forin.sublime-snippet",
 		"/C/Users/Vincent/Documents/Hckr/JavaScript/Javascript the Definitive Guide/Chapter 6 - Objects/Class Attribute.js",
-		"/C/Users/Vincent/Documents/Hckr/JavaScript/Javascript the Definitive Guide/Chapter 6 - Objects/Property Getters and Setters.js",
-		"/C/Users/Vincent/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/SNIPPET- defsetter.sublime-snippet",
-		"/C/Users/Vincent/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/SNIPPET - defgetter.sublime-snippet"
+		"/C/Users/Vincent/Documents/Hckr/JavaScript/Javascript the Definitive Guide/Chapter 6 - Objects/Property Getters and Setters.js"
 	],
 	"find":
 	{
@@ -645,6 +645,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"url",
 			"modal",
 			"tooltip",
 			"h3",
@@ -771,8 +772,7 @@
 			"url",
 			"created_at",
 			"url",
-			"console",
-			"twittercloudtags"
+			"console"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -802,15 +802,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8268,
+						"buffer_size": 8326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								490,
-								490
+								4333,
+								4333
 							]
 						],
 						"settings":
@@ -867,31 +867,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 46368.0,
+						"translation.y": 1006.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
 					"file": "script.js",
 					"settings":
 					{
-						"buffer_size": 2436,
+						"buffer_size": 2437,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								101,
+								101
 							]
 						],
 						"settings":
@@ -952,7 +946,13 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 2,
 					"file": "send_form_email.php",
@@ -1033,15 +1033,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 3818,
+						"buffer_size": 3811,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								253,
-								253
+								3767,
+								3767
 							]
 						],
 						"settings":
@@ -1098,7 +1098,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2508.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1134,7 +1134,7 @@
 		"cols":
 		[
 			0.0,
-			0.05,
+			0.66,
 			1.0
 		],
 		"rows":
